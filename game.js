@@ -58,6 +58,14 @@ $(document).keypress(function(){
         
     }
 })
+$(document).click(function(){
+    if (keyboard === false)
+    {
+        keyboard = true;
+        nextSequence();
+        
+    }
+})
 
 function checkAnswer(currentLevel)
 {
