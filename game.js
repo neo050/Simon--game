@@ -58,7 +58,7 @@ $(document).keypress(function(){
         
     }
 })
-$(document).on("click",function(){
+$(document).on("touchstart",function(){
     if (keyboard === false)
     {
         keyboard = true;
