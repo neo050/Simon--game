@@ -58,7 +58,7 @@ $(document).keypress(function(){
         
     }
 })
-$(document).click(function(){
+$(document).on("click",function(){
     if (keyboard === false)
     {
         keyboard = true;
